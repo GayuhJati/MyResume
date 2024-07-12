@@ -14,7 +14,7 @@ function App() {
       <NavBarComponent/>
        <Routes>
         <Route path="/" Component={HomePage} />
-        <Route path= "/Project" Component={ProjekPage}/>
+        <Route path="/Project" Component={ProjekPage}/>
         <Route path="/Resume" Component={ResumePage}/>
        </Routes>
        <FooterComponent />
