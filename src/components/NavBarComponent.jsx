@@ -23,8 +23,8 @@ export const NavBarComponent = () => {
           <NavbarCollapse className='navbar-collapse' id="navbarSupportedContent">
             <Nav className='navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder'>
                 <Nav.Link className='nav-item' href={import.meta.env.BASE_URL + "/"}>Home</Nav.Link>
-                <Nav.Link className='nav-item' href={import.meta.env.BASE_URL + "/Resume"}>Resume</Nav.Link>
-                <Nav.Link className='nav-item' href={import.meta.env.BASE_URL + "/Project"}>Projects</Nav.Link>
+                <Nav.Link className='nav-item' href={import.meta.env.BASE_URL + "Resume"}>Resume</Nav.Link>
+                <Nav.Link className='nav-item' href={import.meta.env.BASE_URL + "Project"}>Projects</Nav.Link>
               </Nav>
           </NavbarCollapse>
         </Container>
