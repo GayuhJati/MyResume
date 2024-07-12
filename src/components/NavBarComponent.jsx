@@ -14,7 +14,7 @@ export const NavBarComponent = () => {
      
       <Navbar className='navbar navbar-expand-lg navbar-light bg-white py-3'>
         <Container>
-          <Navbar.Brand className='navbar-brand' href="/">
+          <Navbar.Brand className='navbar-brand' href={import.meta.env.BASE_URL}>
             <span className="fw-bolder text-primary">My Resume</span>
           </Navbar.Brand>
           <NavbarToggle className='navbar-toggler collapsed' type='button' data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -22,7 +22,7 @@ export const NavBarComponent = () => {
           </NavbarToggle>
           <NavbarCollapse className='navbar-collapse' id="navbarSupportedContent">
             <Nav className='navbar-nav ms-auto mb-2 mb-lg-0 small fw-bolder'>
-                <Nav.Link className='nav-item' href={import.meta.env.BASE_URL + "/"}>Home</Nav.Link>
+                <Nav.Link className='nav-item' href={import.meta.env.BASE_URL}>Home</Nav.Link>
                 <Nav.Link className='nav-item' href={import.meta.env.BASE_URL + "Resume"}>Resume</Nav.Link>
                 <Nav.Link className='nav-item' href={import.meta.env.BASE_URL + "Project"}>Projects</Nav.Link>
               </Nav>

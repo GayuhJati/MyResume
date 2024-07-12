@@ -48,9 +48,9 @@ export const HomePage = () => {
                         <p className="text-muted">I'm a fresh graduate that seeking for opportunity for my eager in technology world. I'm a creative and collaborative with a passion and a knack for mastering new skills. Proficient in C++, JavaScript, and Python, with a strong foundation in editing software like Premier Pro, Photoshop, Canva, and CapCut. Passionate to make a good impact to others.
                         </p>
                         <div className="d-flex justify-content-center fs-2 gap-4">
-                            <a className="text-gradient" href="#!"><i className="bi bi-instagram"></i></a>
-                            <a className="text-gradient" href="#!"><i className="bi bi-linkedin"></i></a>
-                            <a className="text-gradient" href="#!"><i className="bi bi-github"></i></a>
+                            <a className="text-gradient" href="https://www.instagram.com/gayuhjati/"><i className="bi bi-instagram"></i></a>
+                            <a className="text-gradient" href="https://www.linkedin.com/in/gayuh-jati/"><i className="bi bi-linkedin"></i></a>
+                            <a className="text-gradient" href="https://github.com/GayuhJati"><i className="bi bi-github"></i></a>
                         </div>
                     </div>
                     </Col>
