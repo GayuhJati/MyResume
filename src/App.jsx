@@ -13,9 +13,9 @@ function App() {
       <div>
       <NavBarComponent/>
        <Routes>
-        <Route path={import.meta.env.BASE_URL + "/"} Component={HomePage} />
-        <Route path={import.meta.env.BASE_URL + "/Project"} Component={ProjekPage}/>
-        <Route path={import.meta.env.BASE_URL + "/Resume"} Component={ResumePage}/>
+        <Route path="/" Component={HomePage} />
+        <Route path= "/Project" Component={ProjekPage}/>
+        <Route path="/Resume" Component={ResumePage}/>
        </Routes>
        <FooterComponent />
       </div>
